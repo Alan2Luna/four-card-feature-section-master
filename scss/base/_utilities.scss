@@ -1,0 +1,25 @@
+.container {
+    max-width: 70rem;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-right: 2em;
+    padding-left: 2em;
+    margin: 0 auto;
+
+    @media (min-width: 50rem) {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.font-bold {
+    font-weight: var(--fw-bold);
+}
+
+.font-normal {
+    font-weight: var(--fw-normal);
+}
+
+.font-extralight {
+    font-weight: var(--fw-extralight);
+}
